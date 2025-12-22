@@ -10,6 +10,43 @@
 | `<Esc>` | Clear search highlight |
 | `jk` or `jj` | Exit insert mode (if configured) |
 
+## Line Navigation & Jumping
+
+**Jump to specific line:**
+
+| Shortcut | Description |
+|----------|-------------|
+| `42G` or `42gg` | Go to line 42 |
+| `:42` | Go to line 42 |
+
+**Relative jumps (use with relative line numbers):**
+
+| Shortcut | Description |
+|----------|-------------|
+| `5j` | Down 5 lines |
+| `10k` | Up 10 lines |
+
+**Page navigation:**
+
+| Shortcut | Description |
+|----------|-------------|
+| `gg` | Top of file |
+| `G` | Bottom of file |
+| `<C-d>` | Half page down |
+| `<C-u>` | Half page up |
+| `<C-f>` | Full page down |
+| `<C-b>` | Full page up |
+| `{` | Previous paragraph |
+| `}` | Next paragraph |
+| `%` | Jump to matching bracket |
+
+**Jump history:**
+
+| Shortcut | Description |
+|----------|-------------|
+| `<C-o>` | Jump back (previous location) |
+| `<C-i>` | Jump forward |
+
 ## File Navigation
 
 | Shortcut | Description |

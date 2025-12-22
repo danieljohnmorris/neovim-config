@@ -175,6 +175,37 @@ Examples:
 - `vaq` - select around quote (any)
 - `vab` - select around bracket (any)
 
+## Treesitter (Syntax)
+
+Provides smart syntax highlighting and code understanding.
+
+**Commands:**
+
+| Command | Description |
+|---------|-------------|
+| `:TSInstallInfo` | Show installed language parsers |
+| `:TSInstall <lang>` | Install a language parser |
+| `:TSUpdate` | Update all parsers |
+| `:TSUninstall <lang>` | Remove a language parser |
+
+**Common languages to install:**
+```
+:TSInstall python typescript javascript lua go rust json yaml html css tsx
+```
+
+**Text Objects (with treesitter-textobjects):**
+
+| Shortcut | Description |
+|----------|-------------|
+| `vaf` | Select around function |
+| `vif` | Select inside function |
+| `vac` | Select around class |
+| `vic` | Select inside class |
+| `]f` | Next function start |
+| `[f` | Previous function start |
+| `]c` | Next class start |
+| `[c` | Previous class start |
+
 ## Which-key
 
 Press `<Space>` and wait to see all available keybindings organized by category.

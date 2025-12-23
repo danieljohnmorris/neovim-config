@@ -10,6 +10,8 @@
 | `<Esc>` | Clear search highlight |
 | `jk` or `jj` | Exit insert mode (if configured) |
 | `:colorscheme` | Show current colorscheme |
+| `:set nu!` | Toggle absolute line numbers |
+| `:set rnu!` | Toggle relative line numbers |
 
 ## Line Navigation & Jumping
 

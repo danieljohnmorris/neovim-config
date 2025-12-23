@@ -9,6 +9,7 @@
 | `<Space>` | Show which-key menu |
 | `<Esc>` | Clear search highlight |
 | `jk` or `jj` | Exit insert mode (if configured) |
+| `:colorscheme` | Show current colorscheme |
 
 ## Line Navigation & Jumping
 
